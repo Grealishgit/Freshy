@@ -39,7 +39,7 @@ const BannerCards = () => {
                 <h2>Enjoy our expertly crafted suchi combinations,<br /> made just for you.</h2>
                 <p>Our sushi is crafted from the freshet ingredients, delivering a <br /> perfect blend of flavor, quality, and visual appeal</p>
             </div>
-            <div>
+
                 <div className='cards'>
                     {foods.map(food => (
                         <div className='card' key={food.id}>
@@ -49,6 +49,9 @@ const BannerCards = () => {
                         </div>
                     ))}
                 </div>
+            <div className='banner-content'>
+                <h2>Customer Favorites The most Loved<br /> Menu.</h2>
+                <p>Our sushi is crafted from the freshet ingredients, delivering a <br /> perfect blend of flavor, quality, and visual appeal</p>
             </div>
         </div>
     )
