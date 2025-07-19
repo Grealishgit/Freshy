@@ -164,3 +164,40 @@
     font-size: 1rem;
     margin-top: 20px;
 }
+
+.preview-container {
+    display: flex;
+    width: 800px;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.preview-container p {
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.preview-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.preview-button {
+    background-color: #a33b43;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1rem;
+}

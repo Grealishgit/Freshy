@@ -84,10 +84,19 @@ const BannerCards = () => {
                             <h3>{item.name}</h3>
                             <button className='order-button'>
                                 Order Now
-
                             </button>
                         </div>
                     ))}
+                </div>
+
+            </div>
+            <div className='preview-container'>
+                <p>
+                    Our sushi is crafted from the freshest ingredients.Our  <br />  food is crafted using the freshest ingredients.
+                </p>
+                <div className='preview-buttons'>
+                    <button className='preview-button'></button>
+                    <butto className='preview-button'></butto>
                 </div>
             </div>
         </div>
