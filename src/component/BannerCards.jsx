@@ -128,6 +128,7 @@ const BannerCards = () => {
                 <p>Our food is made fro the freshest ingredients, resulting in superior sushi with a vibrant
                     appearance and an unbeatable taste guarantee.</p>
             </div>
+            <div>
             <div className='image-cards'>
                 <button className='prev-btn'>
 
@@ -146,6 +147,7 @@ const BannerCards = () => {
                         </button>
                     </div>
                 ))}
+            </div>
             </div>
 
         </div>
