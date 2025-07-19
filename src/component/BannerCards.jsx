@@ -3,6 +3,9 @@ import './BannerCards.css'
 import food1 from '../assets/food1.jpg'
 import food2 from '../assets/food2.jpg'
 import food3 from '../assets/food3.jpg'
+import preview1 from '../assets/preview1.jpg'
+import preview2 from '../assets/preview2.jpg'
+import preview3 from '../assets/preview3.jpg'
 
 const foods = [
     {
@@ -22,6 +25,23 @@ const foods = [
         title: 'Tempura',
         description: 'Crispy tempura vegetables and seafood, lightly battered.',
         image: food3
+    }
+]
+const preview = [
+    {
+        id: 1,
+        name: 'Salmon Platter',
+        image: preview1
+    },
+    {
+        id: 2,
+        name: 'Mixed Platter Roll',
+        image: preview2
+    },
+    {
+        id: 3,
+        name: 'Ala Carte Menu',
+        image: preview3
     }
 ]
 
@@ -52,6 +72,23 @@ const BannerCards = () => {
             <div className='banner-content'>
                 <h2>Customer Favorites The most Loved<br /> Menu.</h2>
                 <p>Our sushi is crafted from the freshet ingredients, delivering a <br /> perfect blend of flavor, quality, and visual appeal</p>
+            </div>
+            <div className='preview-section'>
+                <div className='preview-header'>
+                    <img src={preview1} alt="Preview 1" />
+                </div>
+                <div className='preview-cards'>
+                    {preview.map(item => (
+                        <div className='preview-card' key={item.id}>
+                            <img src={item.image} alt={item.name} />
+                            <h3>{item.name}</h3>
+                            <button className='order-button'>
+                                Order Now
+
+                            </button>
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     )
