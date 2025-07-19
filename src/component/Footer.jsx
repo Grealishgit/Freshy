@@ -43,14 +43,12 @@ const Footer = () => {
                         <p className='footer-p'>Terms Conditions</p>
                     </div>
                 </div>
-
-
             </footer>
             <div className='border-break' />
             <div className='footer-bottom'>
                 <p className='footer-copyright'>© 2025 Freshy Foods. All rights reserved.</p>
                 <div>
-                    <p className='footer-copyright'>Made with ❤️ by Hunter</p>
+                    <p className='footer-copyright'>Made with ❤️ by HunterDev</p>
                 </div>
                 <div className='footer-bottom-links'>
                     <p className='footer-p'>Privacy</p>
